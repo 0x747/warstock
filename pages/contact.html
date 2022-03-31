@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Warstock</title>
+</head>
+<body>
+    <div id="titlebar">
+        <a href="../index.html" title="Home">[Warstock]</a>
+    </div>
+    <form action="" method="post">
+        <label for="email">Enter your email</label><br><br>
+        <input type="text" name="email" id="box" placeholder="Your email"><br><br><br>
+        <label for="category">What are you having a problem with?</label><br><br>
+        <select name="category" id="dropdown">
+            <option value="" disabled selected hidden>Category</option>
+            <option value="account">Account Hacked or Can't Log in</option>
+            <option value="billing">Billing & Payment</option>
+            <option value="bug">Bug Report</option>
+            <option value="shipping">Shipping</option>
+            <option value="returns">Returns & Refunds</option>
+            <option value="privacy">Data Privacy</option>
+        </select><br><br><br>
+        <label for="description">Description</label><br><br>
+        <textarea name="description" id="descriptionbox" cols="65" rows="10" placeholder="Please describe your issue in detail"></textarea><br><br><br>
+        <label for="attach">Attachment <i>(Optional)</i></label><br><br>
+        <input type="file" name="file" id="file" accept=".png, .jpeg, .avif, .pdf"><br><br><br>
+        <input type="submit" id="submit" value="SUBMIT"><br><br><br>
+    </form>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+        body, html {
+            margin: 0;
+            overflow-x: hidden;
+            background-color: #FFFFEE;
+            text-align: center;
+            font-family: Roboto;
+        }
+
+        #titlebar {
+            margin: auto;
+            width: 100vw;
+            padding-left: 25px;
+            padding-top: 15px;
+            background-color: black;
+            padding-bottom: 15px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #titlebar a {
+            text-decoration: none;
+            font-size: 40px;
+            margin: 0px;
+            color: white;
+            display: inline-block;
+            cursor: pointer;
+            font-family: 'Special Elite', cursive;
+        }
+
+        form {
+            width: 400;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            color: #192519;
+            font-family: Roboto;
+            font-size: 17px;
+            padding: 20px;
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        #dropdown {
+            height: 40px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        #descriptionbox {
+            font-family: Roboto;
+            border-radius: 5px;
+            border: 1px solid grey;
+            padding: 10px;
+            resize: none;
+            width: 500px;
+        }
+
+        #box {
+            width: 500px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 17px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        #file {
+            font-size: 17px;
+            font-family: Roboto;
+        }
+
+        #submit {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            width: 200px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 15px;
+            border: none;
+            background-color: #395739;
+            color: white;
+            cursor: pointer;
+        }
+
+        #submit:hover {
+            width: 205px;
+            height: 52px;
+        }
+    </style>
+</body>
+</html>
