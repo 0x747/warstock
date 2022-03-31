@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Warstock</title>
+</head>
+<body>
+    <div id="titlebar">
+        <a href="../index.html" title="Home">[Warstock]</a>
+    </div>
+    <form action="" method="post">
+        <label for="email">What's your email?</label><br><br>
+        <input class="box" type="email" id="email" placeholder="Enter your email"><br><br><br>
+        <label for="password">Create a password</label><br><br>
+        <input class="box" type="password" id="password" placeholder="Create a password"><br><br><br>
+        <label for="name">What's your name?</label><br><br>
+        <input class="box" type="text" id="name" placeholder="Enter your name"><br><br><br>
+        <label for="dob">What's your date of birth?</label><br><br>
+        <input type="date" id="date"><br><br><br>
+        <label for="gender">What's your gender</label><br><br>
+        <input type="radio" name="gender" id="male"><label for="male" id="m" style="font-weight: normal;">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female" style="font-weight: normal;">Female</label><br><br><br>
+        <input type="checkbox" id="terms">
+        <label for="terms" style="font-size: 13px;">By checking this box, you agree to Warstock's <a href="" style="color: blue;">Terms and Conditions</a></label><br><br><br>
+        <input type="submit" id="submit" value="SIGN UP"><br><br><br>
+        <p align="center">Have an account? 
+            <a href="login.html" style="color: blue;">Login</a>
+        </p>
+    </form>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+        body, html {
+            margin: 0;
+            overflow-x: hidden;
+            background-color: #FFFFEE;
+        }
+
+        #titlebar {
+            margin: auto;
+            width: 100vw;
+            padding-left: 25px;
+            padding-top: 15px;
+            background-color: black;
+            padding-bottom: 15px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #titlebar a {
+            text-decoration: none;
+            font-size: 40px;
+            margin: 0px;
+            color: white;
+            display: inline-block;
+            cursor: pointer;
+            font-family: 'Special Elite', cursive;
+        }
+
+        form {
+            margin-top: 50px;
+            width: 450px;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            color: #192519;
+            font-family: Roboto;
+            font-size: 17px;
+            padding: 20px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        .box {
+            width: 400px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 17px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+
+        #date {
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            font-size: 17px;
+            font-family: Roboto;
+            border-radius: 10px;
+            border: 1px solid grey;
+        }
+
+        #submit {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            width: 200px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 15px;
+            border: none;
+            background-color: #395739;
+            color: white;
+            cursor: pointer;
+        }
+
+        #submit:hover {
+            width: 205px;
+            height: 52px;
+        }
+
+        #terms {
+            background-color: red;
+        }
+    </style>
+</body>
+</html>

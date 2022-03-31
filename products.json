@@ -1,0 +1,86 @@
+{
+    "aircrafts": [
+        {
+            "name": "MiG-21",
+            "image": "assets/products/mig21.jpg",
+            "price": "20,000,000" 
+        },
+        {
+            "name": "Su-30MKI",
+            "image": "assets/products/su30.jpg",
+            "price": "70,000,000"
+        },
+        {
+            "name": "MiG-29",
+            "image": "assets/products/mig29.jpg",
+            "price": "60,000,000"
+        },
+        {
+            "name": "Mirage 2000",
+            "image": "assets/products/mirage2000.jpg",
+            "price": "27,000,000"
+        },
+        {
+            "name": "F-16 Falcon",
+            "image": "assets/products/f16.jpg",
+            "price": "120,000,000"
+        },
+        {
+            "name": "HAL LCH",
+            "image": "assets/products/lch.jpg",
+            "price": "30,0000,000"
+        },
+        {
+            "name": "A-10 Warthog",
+            "image": "assets/products/a10.jpg",
+            "price": "90,000,000"
+        },
+        {
+            "name": "MiG-31",
+            "image": "assets/products/mig31.png",
+            "price": "35,000,000"
+        }
+    ],
+
+    "vehicles": [
+        {
+            "name": "Humvee",
+            "image": "assets/products/humvee.jpg",
+            "price": "2,500,000"
+        },
+        {
+            "name": "Maruti Gypsy",
+            "image": "assets/products/gypsy.jpg",
+            "price": "700,000"
+        },
+        {
+            "name": "Mahindra Marksman",
+            "image": "assets/products/marksman.jpg",
+            "price": "2,700,000"
+        },
+        {
+            "name": "Ashok Leyland Stallion",
+            "image": "assets/products/stallion.jpg",
+            "price": "1,900,000"
+        }
+        
+    ],
+
+    "firearms": [
+        {
+            "name": "Glock 17",
+            "image": "assets/products/glock17.jpg",
+            "price": "45,000"
+        },
+        {
+            "name": "Sig Sauer P229",
+            "image": "assets/products/sigsauer.jpg",
+            "price": "40,500"
+        },
+        {
+            "name": "Beretta M9",
+            "image": "assets/products/berettam9.jpg",
+            "price": "55,000"
+        }
+    ]
+}

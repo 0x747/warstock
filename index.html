@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Warstock</title>
+</head>
+<body onload="changePicture(), changeCategory()">
+    <style>
+    </style>
+    <header style="position: fixed; z-index: 999;">
+        <div class="prompt">
+            <p>Welcome!</p>
+            <a href="pages/login.html" style="color: rgb(100, 149, 255);">Sign in</a>
+            <p>or</p>
+            <a href="pages/register.html" style="color: rgb(100, 149, 255);">Register</a>
+        </div>
+        <hr style="margin: 0; border: 1px solid #E1D798;">
+        <div id="titlebar">
+            <p>[Warstock]</p>
+                <input type="text" id="searchbox" placeholder="Search for anything" style="margin-left: 50px;">
+                <select name="category" id="category" autocomplete="off" onchange="changeCategory(this.value)">
+                    <option value="" disabled selected hidden>Category</option>
+                    <option value="aircafts">Aircrafts</option>
+                    <option value="firearms">Firearms</option>
+                    <option value="vehicles">Vechicles</option>
+                </select>
+                <input type="submit" id="submit" value="Search">
+    </header>
+    <div class="carousel">
+        <p id="info" style="padding-left: 15px; font-size: 40px; font-weight: bold; font-family: Roboto; margin-top: 10px; color: #E1D798;">New Product! <br><br>Highly maneuverable A-10 Warthog</p>
+        <div id="picture" style="background: url(assets/products/a10.jpg); background-position: center; background-size: cover;"></div>
+    </div>
+    <div id="productarea"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" type="text/javascript"></script> 
+</body>
+</html>
